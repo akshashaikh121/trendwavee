@@ -149,6 +149,10 @@ footer ul a:hover {
 
 
 /*women page*/
+
+.w{
+    overflow-x: hidden;
+}
 header .container-2 {
     position: relative;
     left: 50px;
@@ -173,8 +177,7 @@ header .container-2 .img-2 {
     top: 40px;
 }
 
-header .container-2 .img-3 {}
-
+    
 header .container-2 .img-4 {
     position: relative;
     left: 100px;
@@ -261,7 +264,10 @@ header .container-2 .img-6 {
         flex-direction: column;
         align-items: center;
     }
-
+.w{
+    padding: 60px;
+    overflow-x: hidden;
+}
     header .container-2 {
         position: relative;
         left: 50px;
