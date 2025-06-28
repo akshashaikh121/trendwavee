@@ -202,9 +202,14 @@ header .container-2 .img-6 {
         flex-direction: column;
         align-items: center;
         height: fit-content;
+
     }
 
-
+.owl-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     header .container-2 {
         position: relative;
         left: 50px;
@@ -219,42 +224,42 @@ header .container-2 .img-6 {
 
     header .container-2 .img-1 {
         position: relative;
-        left: 80px;
-        top: 40px;
+        left: 12px;
+        top: 0px;
     }
 
 
     header .container-2 .img-2 {
         position: relative;
-        left:0px;
-        top: -0px;
+        left:-13px;
+        top: 10px;
     }
 
     header .container-2 .img-3 {
         position: relative;
-        left: 120px;
-        top: -150px;
+        left:10 px;
+        top: 0px;
     }
 
 
     header .container-2 .img-4 {
         position: relative;
-        left: -90px;
-        bottom: 5px;
+        left: 0px;
+        bottom:0 px;
         display:none;
     }
 
     header .container-2 .img-5 {
         position: relative;
-        left: -58px;
-        top: -530px;
+        left: -33px;
+        top: -10px;
     }
 
 
     header .container-2 .img-6 {
         position: relative;
-        top: -200px;
-        left:60px;
+        top: 0px;
+        left:0px;
         display: none;
     }
 }
@@ -265,7 +270,7 @@ header .container-2 .img-6 {
         align-items: center;
     }
 .w{
-    padding: 60px;
+    padding: 0px;
     overflow-x: hidden;
 }
     header .container-2 {
