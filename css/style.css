@@ -205,16 +205,13 @@ header .container-2 .img-6 {
 
     }
 
-.owl-carousel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .w{
+        padding: 0px;
+        overflow-x: hidden;
+    }
     header .container-2 {
         position: relative;
-        left: 50px;
-        top: 50px;
-
+       
     }
 
     header .container img {
