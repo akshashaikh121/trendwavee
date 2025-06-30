@@ -7,7 +7,6 @@ span {
 
 body {
     overflow-x: hidden;
-
 }
 
 .carousel h5,
@@ -112,8 +111,10 @@ footer ul a:hover {
         flex-direction: column;
     }
 
-    body {
+    .w {
         overflow-x: hidden;
+        width: 100% !important;
+
     }
 
     header {
@@ -131,6 +132,7 @@ footer ul a:hover {
 
     body {
         overflow-x: hidden;
+
     }
 
     .header {
@@ -213,14 +215,16 @@ header .container-2 .img-6 {
     .w {
         padding: 0px;
         overflow-x: hidden;
+        width: 100% !important;
     }
 
     header .container-2 {
         position: relative;
 
     }
-    .container-1{
-        padding:10px 0px 10px 10px;
+
+    .container-1 {
+        padding: 10px 0px 10px 10px;
     }
 
     .container-2 {
@@ -228,13 +232,13 @@ header .container-2 .img-6 {
         padding: 0px;
         margin-top: 14px;
     }
-    
+
 
     header .container img {
         width: 180px !important;
         height: 180px !important;
     }
- 
+
     header .container-2 .img-1 {
         position: relative;
         left: 12px;
@@ -280,7 +284,11 @@ header .container-2 .img-6 {
         width: 100%;
         height: 300px;
     }
- 
+
+    .ifram-container {
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 577px) and (max-width: 748px) {
@@ -292,6 +300,7 @@ header .container-2 .img-6 {
     .w {
         padding: 0px;
         overflow-x: hidden;
+        margin: 0px !important;
     }
 
     header .container-2 {
@@ -340,10 +349,10 @@ header .container-2 .img-6 {
 
 
     header .container-2 .img-6 {
-        
-        position: relative;    
+
+        position: relative;
         top: -280px;
         left: 50px;
     }
-    
+
 }
