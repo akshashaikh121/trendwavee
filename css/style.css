@@ -20,7 +20,18 @@ body {
 .header {
     background: url(../img/redwave.jpeg) no-repeat;
     background-size: 100%;
+    height: fit-content;
+    overflow: hidden;
+    width: 100%;
+    height: 99vh;
 }
+
+
+
+/* .header img {
+    width: 250px !important;
+    height: 250px !important;
+} */
 
 .card-img {
     overflow: hidden;
@@ -142,7 +153,7 @@ footer ul a:hover {
 
 /*women page*/
 body {
-    overflow-X: hidden;
+    overflow-x: hidden;
 }
 
 header .container-2 {
@@ -279,9 +290,10 @@ header .container-2 .img-6 {
     }
 
 
-    iframe{
-        width:100% !important;
-}
+    iframe {
+        width: 100% !important;
+    }
+
     .ifram-container {
         width: 100% !important;
         height: 300px !important;
