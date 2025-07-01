@@ -6,7 +6,7 @@ span {
 }
 
 body {
-    overflow-x: hidden;
+    overflow-X: hidden;
 }
 
 .carousel h5,
@@ -18,8 +18,7 @@ body {
 
 
 .header {
-    background: url(../img/redwave.jpeg) no-repeat left;
-    background-position: bottom-left;
+    background: url(../img/redwave.jpeg) no-repeat;
     background-size: 100%;
 }
 
@@ -98,6 +97,8 @@ textarea::placeholder {
 
 footer {
     padding-left: 10px;
+    overflow-x: hidden;
+
 }
 
 footer ul a:hover {
@@ -111,16 +112,11 @@ footer ul a:hover {
         flex-direction: column;
     }
 
-    .w {
+    body {
         overflow-x: hidden;
         width: 100% !important;
 
     }
-
-    header {
-        background-size: 100%;
-    }
-
 
 }
 
@@ -135,12 +131,6 @@ footer ul a:hover {
 
     }
 
-    .header {
-        background-size: 100%;
-        width: 100%;
-        height: 450px;
-        padding-top: 0;
-    }
 
     .slide {
         width: 100%;
@@ -151,9 +141,8 @@ footer ul a:hover {
 
 
 /*women page*/
-
-.w {
-    overflow-x: hidden;
+body {
+    overflow-X: hidden;
 }
 
 header .container-2 {
@@ -212,10 +201,19 @@ header .container-2 .img-6 {
 
     }
 
-    .w {
+    header {
+        display: flex;
+        flex-direction: column !important;
+        height: 650px !important;
+        padding: 50px;
+
+    }
+
+    body {
         padding: 0px;
-        overflow-x: hidden;
+        overflow-X: hidden;
         width: 100% !important;
+
     }
 
     header .container-2 {
@@ -280,13 +278,16 @@ header .container-2 .img-6 {
         display: none;
     }
 
-    iframe {
-        width: 100%;
-        height: 300px;
-    }
 
+    iframe{
+        width:100% !important;
+}
     .ifram-container {
-        width: 100%;
+        width: 100% !important;
+        height: 300px !important;
+        position: relative;
+        left: 0px !important;
+
     }
 
 }
@@ -297,7 +298,7 @@ header .container-2 .img-6 {
         align-items: center;
     }
 
-    .w {
+    body {
         padding: 0px;
         overflow-x: hidden;
         margin: 0px !important;
@@ -353,6 +354,10 @@ header .container-2 .img-6 {
         position: relative;
         top: -280px;
         left: 50px;
+    }
+
+    footer {
+        overflow-x: hidden;
     }
 
 }
