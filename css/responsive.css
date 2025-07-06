@@ -1,3 +1,457 @@
-@media (max-width: 576px){
+@media (min-width:320px) and (max-width: 400px) {
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column !important;
+        padding: 0px !important;
+    }
+
+
+    header {
+        overflow: hidden;
+        height: 50vh !important;
+
+
+    }
+
+    header .container img {
+        width: 120px;
+        height: 120px;
+
+    }
+
+    header .container-2 .img-1 {
+        position: relative;
+        left: 80px;
+        top: 13px;
+    }
+
+    header .container-2 .img-2 {
+        position: relative;
+        left: 38px;
+        top: 47px;
+    }
+
+
+    header .container-2 .img-4 {
+        position: relative;
+        left: 20px;
+        bottom: 0px;
+        display: none;
+    }
+
+    header .container-2 .img-5 {
+        position: relative;
+        left: 11px;
+        top: -73px;
+    }
+
+    header .container-2 .img-3 {
+        position: relative;
+        left: 7px;
+        top: 14px;
+    }
+
+
+    header .container-2 .img-6 {
+        position: relative;
+        bottom: 0px;
+        display: none;
+    }
+
+    footer {
+        width: 320px;
+        overflow-x: hidden !important;
+
+    }
+
+    /*women page*/
+    body {
+        overflow-x: hidden;
+    }
+
+    header .container-2 {
+        position: relative;
+        left: 0px;
+
+    }
+
+
+}
+
+/*mobile screen 401 to 500*/
+@media (min-width:401px) and (max-width: 500px) {
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column !important;
+        padding: 0px !important;
+    }
+
+    header {
+        overflow: hidden;
+        height: 50vh !important;
+
+
+    }
+
+    header .container img {
+        width: 130px;
+        height: 130px;
+
+    }
+
+    header .container-2 .img-1 {
+        position: relative;
+        left: 100px;
+        top: 3px;
+    }
+
+    header .container-2 .img-2 {
+        position: relative;
+        left: 58px;
+        top: 37px;
+    }
+
+
+    header .container-2 .img-4 {
+        position: relative;
+        left: 40px;
+        bottom: -10px;
+        display: none;
+    }
+
+    header .container-2 .img-5 {
+        position: relative;
+        left: 31px;
+        top: -93px;
+    }
+
+    header .container-2 .img-3 {
+        position: relative;
+        left: 27px;
+        top: 0px;
+    }
+
+
+    header .container-2 .img-6 {
+        position: relative;
+        bottom: -10px;
+        display: none;
+    }
+
+    /*women page*/
+    body {
+        overflow-x: hidden;
+    }
+
+    header .container-2 {
+        position: relative;
+        left: 0px;
+
+    }
+
+    footer {
+        overflow-x: hidden !important;
+    }
+
+
+}
+
+/*mobile screen 501 to 576*/
+@media (min-width:501px) and (max-width:576px) {
+    header {
+        overflow: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header .main-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    header .container-2 {
+        position: relative;
+        left: 0px;
+
+    }
+
+
+
+    header .container img {
+        width: 140px;
+        height: 140px;
+
+    }
+
+    header .container-2 .img-1 {
+        position: relative;
+        left: 40px;
+        top: 10px;
+    }
+
+    header .container-2 .img-2 {
+        position: relative;
+        left: 50px;
+        top: 10px;
+    }
+
+    header .container-2 .img-3 {
+        position: relative;
+        left: 70px;
+        top: 10px;
+    }
+
+
+    header .container-2 .img-4 {
+        position: relative;
+        left: 126px;
+        bottom: 80px;
+    }
+
+    header .container-2 .img-5 {
+        position: relative;
+        left: 126px;
+        top: -90px;
+    }
+
+
+    header .container-2 .img-6 {
+        position: relative;
+        bottom: 0px;
+        display: none;
+    }
+
+    footer {
+        overflow-x: hidden !important;
+    }
+
+}
+
+/*tablet screen size */
+/*screen 577 to 768*/
+@media (min-width:577px) and (max-width:768px) {
+    header {
+        overflow: hidden;
+        padding-bottom: 0px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header .main-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    header .container-2 {
+        position: relative;
+        left: 0px;
+
+
+    }
+
+
+
+    header .container img {
+        width: 140px;
+        height: 140px;
+
+    }
+
+    header .container-2 .img-1 {
+        position: relative;
+        left: 40px;
+        top: 0px;
+    }
+
+    header .container-2 .img-2 {
+        position: relative;
+        left: 50px;
+        top: 0px;
+    }
+
+    header .container-2 .img-3 {
+        position: relative;
+        left: 70px;
+        top: 0px;
+    }
+
+
+    header .container-2 .img-4 {
+        position: relative;
+        left: 126px;
+        bottom: 100px;
+    }
+
+    header .container-2 .img-5 {
+        position: relative;
+        left: 126px;
+        top: -100px;
+    }
+
+
+    header .container-2 .img-6 {
+        position: relative;
+        bottom: 0px;
+        display: none;
+    }
+
+    footer {
+        overflow-x: hidden !important;
+    }
+
+}
+
+/*tablet screen size */
+/*screen 768 to 993*/
+@media (min-width:770px) and (max-width:992px) {
+    header {
+        overflow: hidden;
+        padding-bottom: 0px;
+        height: 50vh !important;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header .main-container {
+        display: flex;
+
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    header .container-2 {
+        position: relative;
+        left: 0px;
+
+
+    }
+
+
+
+    header .container img {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    header .container-2 .img-3 {
+        position: relative;
+        right: 80px;
+    }
+
+    header .container-2 .img-1 {
+        position: relative;
+        left: 61px;
+        top: 4px;
+    }
+
+    header .container-2 .img-2 {
+        position: relative;
+        left: -30px;
+        top: 40px;
+    }
+
+
+    header .container-2 .img-4 {
+        position: relative;
+        left: -70px;
+        bottom: initial;
+    }
+
+    header .container-2 .img-5 {
+        position: relative;
+        left: 306px;
+        top: -100px;
+    }
+
+
+    header .container-2 .img-6 {
+        position: relative;
+        bottom: 101px;
+        left: 321px;
+    }
+
+
+    footer {
+        overflow-x: hidden !important;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    header {
+        overflow: hidden;
+        /*  height: 90vh !important;*/
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .main-container {
+        padding-top: 100px;
+    }
+
+    header .container-2 {
+        position: relative;
+        left: 10px;
+
+    }
+
+
+
+    header .container img {
+        width: 180px;
+        height: 180px;
+
+    }
+
+    header .container-2 .img-1 {
+        position: relative;
+        left: 80px;
+        top: 200px;
+    }
+
+    header .container-2 .img-2 {
+        position: relative;
+        left: 50px;
+        top: 40px;
+    }
+
+
+    header .container-2 .img-4 {
+        position: relative;
+        left: 100px;
+        bottom: 130px;
+    }
+
+    header .container-2 .img-5 {
+        position: relative;
+        left: 50px;
+        top: 0px;
+    }
+
+
+    header .container-2 .img-6 {
+        position: relative;
+        bottom: 40px;
+        left: 30px;
+    }
+
 
 }

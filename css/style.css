@@ -101,7 +101,7 @@ textarea::placeholder {
 
 footer {
     padding-left: 10px;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 
 }
 
