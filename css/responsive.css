@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width: 400px) {
+@media (min-width:320px) and (max-width: 359px) {
     .main-container {
         display: flex;
         flex-wrap: wrap;
@@ -9,7 +9,88 @@
 
     header {
         overflow: hidden;
-        height: 50vh !important;
+        height: 75vh !important;
+
+
+    }
+
+    header .container img {
+        width: 90px;
+        height: 90px;
+
+    }
+
+    header .container-2 .img-1 {
+        position: relative;
+        left: 95px;
+        top: 8px;
+    }
+
+    header .container-2 .img-2 {
+        position: relative;
+        left: 68px;
+        top: 36px;
+    }
+
+
+    header .container-2 .img-4 {
+        position: relative;
+        left: 50px;
+        bottom: 0px;
+        display: none;
+    }
+
+    header .container-2 .img-5 {
+        position: relative;
+        left: 41px;
+        top: -59px;
+    }
+
+    header .container-2 .img-3 {
+        position: relative;
+        left: 37px;
+        top: 9px;
+    }
+
+
+    header .container-2 .img-6 {
+        position: relative;
+        bottom: 0px;
+        display: none;
+    }
+/*
+    footer {
+        width: 320px;
+        overflow-x: hidden !important;
+
+    }*/
+
+    /*women page*/
+    body {
+        overflow-x: hidden;
+    }
+
+    header .container-2 {
+        position: relative;
+        left: 0px;
+
+    }
+
+}
+
+
+@media (min-width:360px) and (max-width: 400px) {
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column !important;
+        padding: 0px !important;
+    }
+
+
+    header {
+        overflow: hidden;
+        height: 75vh !important;
 
 
     }
@@ -59,11 +140,10 @@
         display: none;
     }
 
-    footer {
-        width: 320px;
+    /*footer {
         overflow-x: hidden !important;
 
-    }
+    }*/
 
     /*women page*/
     body {
@@ -90,8 +170,7 @@
 
     header {
         overflow: hidden;
-        height: 50vh !important;
-
+        height: 75vh !important;
 
     }
 
@@ -150,11 +229,11 @@
         left: 0px;
 
     }
-
+/*
     footer {
         overflow-x: hidden !important;
     }
-
+*/
 
 }
 
@@ -226,11 +305,11 @@
         bottom: 0px;
         display: none;
     }
-
+/*
     footer {
         overflow-x: hidden !important;
     }
-
+*/
 }
 
 /*tablet screen size */
@@ -305,20 +384,20 @@
         bottom: 0px;
         display: none;
     }
-
+/*
     footer {
         overflow-x: hidden !important;
     }
-
+*/
 }
 
 /*tablet screen size */
 /*screen 768 to 993*/
-@media (min-width:770px) and (max-width:992px) {
+@media (min-width:769px) and (max-width:992px) {
     header {
         overflow: hidden;
         padding-bottom: 0px;
-        height: 50vh !important;
+        height: 80vh !important;
     }
 
     body {
@@ -385,11 +464,11 @@
         left: 321px;
     }
 
-
+/*
     footer {
         overflow-x: hidden !important;
     }
-
+*/
 }
 
 @media (min-width:992px) and (max-width:1199px) {

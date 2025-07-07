@@ -5,8 +5,11 @@ span {
     color: rgb(248, 7, 7);
 }
 
+
 body {
     overflow-X: hidden;
+    padding: 0px;
+    margin: 0px;
 }
 
 .carousel h5,
@@ -51,7 +54,7 @@ body {
 }
 
 .card .btn-contianer .btn-2 {
-    transform: translateX(24vh) !important;
+    transform: translateX(34vh) !important;
 }
 
 .card .btn-contianer .btn-1 {
@@ -100,7 +103,7 @@ textarea::placeholder {
 }
 
 footer {
-    padding-left: 10px;
+    padding-left: 0px;
     overflow-x: hidden !important;
 
 }
