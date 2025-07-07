@@ -12,6 +12,12 @@ body {
     margin: 0px;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
+
 .carousel h5,
 .carousel p {
     color: rgb(248, 247, 247);
@@ -26,9 +32,15 @@ body {
     height: fit-content;
     overflow: hidden;
     width: 100%;
-    height: 99vh;
-}
+    height: 99vh !important;
+    padding-top: 50px !important;
 
+}
+.carousel-item{
+    width: 100%;
+    height:500px !important;
+    padding: 0px !important;
+}
 .card-img {
     overflow: hidden;
 
@@ -182,3 +194,14 @@ header .container-2 .img-6 {
         padding: ;
     }
 } */
+
+.carousel-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    /* adjust as needed */
+    object-fit: scale-down;
+    /* or 'contain' */
+    background-color: #000;
+    /* fills behind image */
+}

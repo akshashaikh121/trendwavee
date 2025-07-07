@@ -58,7 +58,8 @@
         bottom: 0px;
         display: none;
     }
-/*
+
+    /*
     footer {
         width: 320px;
         overflow-x: hidden !important;
@@ -76,6 +77,16 @@
 
     }
 
+    .header {
+        display: flex;
+        flex-direction: column !important;
+        
+    }
+
+    div {
+
+        overflow-x: hidden !important;
+    }
 }
 
 
@@ -229,7 +240,8 @@
         left: 0px;
 
     }
-/*
+
+    /*
     footer {
         overflow-x: hidden !important;
     }
@@ -305,7 +317,8 @@
         bottom: 0px;
         display: none;
     }
-/*
+
+    /*
     footer {
         overflow-x: hidden !important;
     }
@@ -384,7 +397,8 @@
         bottom: 0px;
         display: none;
     }
-/*
+
+    /*
     footer {
         overflow-x: hidden !important;
     }
@@ -464,7 +478,7 @@
         left: 321px;
     }
 
-/*
+    /*
     footer {
         overflow-x: hidden !important;
     }
