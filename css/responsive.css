@@ -80,7 +80,6 @@
     .header {
         display: flex;
         flex-direction: column !important;
-        
     }
 
     div {
@@ -167,7 +166,7 @@
 
     }
 
-
+    
 }
 
 /*mobile screen 401 to 500*/
